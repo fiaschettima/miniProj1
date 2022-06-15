@@ -25,3 +25,20 @@ header{
 .main-content{
     margin-top: 80px;
 }
+.form-container{
+    border: 5px solid black;
+    max-width: 50%;
+    background-color: darkcyan;
+    padding: 25px;
+    z-index: 1;
+    margin: auto;
+}
+input[type=submit]{
+    background-color: red;
+    color: black;
+    margin: 5px;
+    
+}
+input[type=submit]:hover {
+    background-color: green;
+  }
